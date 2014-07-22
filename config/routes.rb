@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root "articles#index"
+  root "home#index"
   
   resources :articles, except: [:new, :create]
 end
